@@ -1,0 +1,433 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "ShadowsocksR/1.0.0": {
+        "dependencies": {
+          "ARSoft.Tools.Net": "2.3.0",
+          "HMBSbige.SingleInstance": "5.0.0",
+          "HMBSbige.UpdateChecker": "5.0.0",
+          "Hardcodet.NotifyIcon.Wpf.NetCore": "1.0.14",
+          "RunAtStartup": "5.0.0",
+          "Syncfusion.SfGrid.WPF": "18.4.0.30",
+          "Syncfusion.SfTreeView.WPF": "18.4.0.30",
+          "URIScheme": "5.0.0",
+          "WindowsJobAPI": "5.0.1",
+          "WindowsProxy": "5.0.0",
+          "WpfColorFontDialog": "1.0.8",
+          "ZXing.Net": "0.16.6",
+          "runtimepack.Microsoft.Windows.SDK.NET.Ref": "10.0.19041.12"
+        },
+        "runtime": {
+          "ShadowsocksR.dll": {}
+        }
+      },
+      "runtimepack.Microsoft.Windows.SDK.NET.Ref/10.0.19041.12": {
+        "runtime": {
+          "Microsoft.Windows.SDK.NET.dll": {
+            "assemblyVersion": "10.0.19041.10",
+            "fileVersion": "10.0.19041.12"
+          },
+          "WinRT.Runtime.dll": {
+            "assemblyVersion": "1.1.0.0",
+            "fileVersion": "1.1.0.33641"
+          }
+        }
+      },
+      "ARSoft.Tools.Net/2.3.0": {
+        "dependencies": {
+          "BouncyCastle.NetCore": "1.8.5"
+        },
+        "runtime": {
+          "lib/netstandard2.0/ARSoft.Tools.Net.dll": {
+            "assemblyVersion": "2.3.0.0",
+            "fileVersion": "2.3.0.0"
+          }
+        }
+      },
+      "BouncyCastle.NetCore/1.8.5": {
+        "runtime": {
+          "lib/netstandard2.0/BouncyCastle.Crypto.dll": {
+            "assemblyVersion": "1.8.5.0",
+            "fileVersion": "1.8.19031.1"
+          }
+        }
+      },
+      "Hardcodet.NotifyIcon.Wpf.NetCore/1.0.14": {
+        "runtime": {
+          "lib/net5.0-windows7.0/Hardcodet.Wpf.TaskbarNotification.dll": {
+            "assemblyVersion": "1.0.14.0",
+            "fileVersion": "1.0.14.0"
+          }
+        }
+      },
+      "HMBSbige.SingleInstance/5.0.0": {
+        "dependencies": {
+          "System.Reactive": "5.0.0"
+        },
+        "runtime": {
+          "lib/net5.0/SingleInstance.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.0.0"
+          }
+        }
+      },
+      "HMBSbige.UpdateChecker/5.0.0": {
+        "runtime": {
+          "lib/net5.0/UpdateChecker.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.0.0"
+          }
+        }
+      },
+      "Microsoft.NETCore.Platforms/5.0.0": {},
+      "Microsoft.Win32.Registry/5.0.0": {
+        "dependencies": {
+          "System.Security.AccessControl": "5.0.0",
+          "System.Security.Principal.Windows": "5.0.0"
+        }
+      },
+      "RunAtStartup/5.0.0": {
+        "dependencies": {
+          "Microsoft.Win32.Registry": "5.0.0"
+        },
+        "runtime": {
+          "lib/net5.0-windows7.0/RunAtStartup.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.0.0"
+          }
+        }
+      },
+      "Syncfusion.Data.WPF/18.4.0.30": {
+        "runtime": {
+          "lib/netcoreapp5.0/Syncfusion.Data.WPF.dll": {
+            "assemblyVersion": "18.4500.0.30",
+            "fileVersion": "18.4500.0.30"
+          }
+        }
+      },
+      "Syncfusion.Licensing/18.4.0.30": {
+        "runtime": {
+          "lib/netcoreapp5.0/Syncfusion.Licensing.dll": {
+            "assemblyVersion": "18.4.0.30",
+            "fileVersion": "18.4.0.30"
+          }
+        }
+      },
+      "Syncfusion.SfBusyIndicator.WPF/18.4.0.30": {
+        "dependencies": {
+          "Syncfusion.Licensing": "18.4.0.30",
+          "Syncfusion.SfShared.WPF": "18.4.0.30"
+        },
+        "runtime": {
+          "lib/netcoreapp5.0/Syncfusion.SfBusyIndicator.WPF.dll": {
+            "assemblyVersion": "18.4500.0.30",
+            "fileVersion": "18.4500.0.30"
+          }
+        }
+      },
+      "Syncfusion.SfGrid.WPF/18.4.0.30": {
+        "dependencies": {
+          "Syncfusion.Data.WPF": "18.4.0.30",
+          "Syncfusion.Licensing": "18.4.0.30",
+          "Syncfusion.Shared.WPF": "18.4.0.30"
+        },
+        "runtime": {
+          "lib/netcoreapp5.0/Syncfusion.SfGrid.WPF.dll": {
+            "assemblyVersion": "18.4500.0.30",
+            "fileVersion": "18.4500.0.30"
+          }
+        }
+      },
+      "Syncfusion.SfGridCommon.WPF/18.4.0.30": {
+        "dependencies": {
+          "Syncfusion.Licensing": "18.4.0.30"
+        },
+        "runtime": {
+          "lib/netcoreapp5.0/Syncfusion.SfGridCommon.WPF.dll": {
+            "assemblyVersion": "18.4500.0.30",
+            "fileVersion": "18.4500.0.30"
+          }
+        }
+      },
+      "Syncfusion.SfShared.WPF/18.4.0.30": {
+        "dependencies": {
+          "Syncfusion.Licensing": "18.4.0.30"
+        },
+        "runtime": {
+          "lib/netcoreapp5.0/Syncfusion.SfShared.WPF.dll": {
+            "assemblyVersion": "18.4500.0.30",
+            "fileVersion": "18.4500.0.30"
+          }
+        }
+      },
+      "Syncfusion.SfTreeView.WPF/18.4.0.30": {
+        "dependencies": {
+          "Syncfusion.Licensing": "18.4.0.30",
+          "Syncfusion.SfBusyIndicator.WPF": "18.4.0.30",
+          "Syncfusion.SfGridCommon.WPF": "18.4.0.30",
+          "Syncfusion.SfShared.WPF": "18.4.0.30"
+        },
+        "runtime": {
+          "lib/netcoreapp5.0/Syncfusion.SfTreeView.WPF.dll": {
+            "assemblyVersion": "18.4500.0.30",
+            "fileVersion": "18.4500.0.30"
+          }
+        }
+      },
+      "Syncfusion.Shared.WPF/18.4.0.30": {
+        "dependencies": {
+          "Syncfusion.Licensing": "18.4.0.30"
+        },
+        "runtime": {
+          "lib/netcoreapp5.0/Syncfusion.Shared.WPF.dll": {
+            "assemblyVersion": "18.4500.0.30",
+            "fileVersion": "18.4500.0.30"
+          }
+        }
+      },
+      "System.Reactive/5.0.0": {
+        "runtime": {
+          "lib/net5.0-windows10.0.19041/System.Reactive.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.0.1"
+          }
+        }
+      },
+      "System.Security.AccessControl/5.0.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "5.0.0",
+          "System.Security.Principal.Windows": "5.0.0"
+        }
+      },
+      "System.Security.Principal.Windows/5.0.0": {},
+      "URIScheme/5.0.0": {
+        "dependencies": {
+          "Microsoft.Win32.Registry": "5.0.0"
+        },
+        "runtime": {
+          "lib/net5.0-windows7.0/URIScheme.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.0.0"
+          }
+        }
+      },
+      "WindowsJobAPI/5.0.1": {
+        "runtime": {
+          "lib/net5.0-windows7.0/WindowsJobAPI.dll": {
+            "assemblyVersion": "5.0.1.0",
+            "fileVersion": "5.0.1.0"
+          }
+        }
+      },
+      "WindowsProxy/5.0.0": {
+        "runtime": {
+          "lib/net5.0-windows7.0/WindowsProxy.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.0.0"
+          }
+        }
+      },
+      "WpfColorFontDialog/1.0.8": {
+        "runtime": {
+          "lib/netcoreapp3.1/WpfColorFontDialog.dll": {
+            "assemblyVersion": "1.0.8.0",
+            "fileVersion": "1.0.8.0"
+          }
+        }
+      },
+      "ZXing.Net/0.16.6": {
+        "runtime": {
+          "lib/netcoreapp3.1/zxing.dll": {
+            "assemblyVersion": "0.16.6.0",
+            "fileVersion": "0.16.6.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ShadowsocksR/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "runtimepack.Microsoft.Windows.SDK.NET.Ref/10.0.19041.12": {
+      "type": "runtimepack",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ARSoft.Tools.Net/2.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-FOgI1Lb53Q/GxI6AJbZo+pAZ4S44c3RxKUS1GlicSueDpU6ocptH7XvJgmCSNDZ9on7+j+Ft5b1QVjr/7LoGhw==",
+      "path": "arsoft.tools.net/2.3.0",
+      "hashPath": "arsoft.tools.net.2.3.0.nupkg.sha512"
+    },
+    "BouncyCastle.NetCore/1.8.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6uxsQw2UXrt82VQAWC2td3oBSJjUZ3P4u4DliagB8wf67KsU53V8sW9xwdF+IwZOOZFR0TCZuv/YKZ2BlrfAag==",
+      "path": "bouncycastle.netcore/1.8.5",
+      "hashPath": "bouncycastle.netcore.1.8.5.nupkg.sha512"
+    },
+    "Hardcodet.NotifyIcon.Wpf.NetCore/1.0.14": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-aNwwax4+C/xhIxTbwKHJnxh0A6hWGnqXZtppZ+/lkE8VOL+a2WuMOBgWpkiUk6Tv+pi1bc+yuHo0lh4Md6KEFw==",
+      "path": "hardcodet.notifyicon.wpf.netcore/1.0.14",
+      "hashPath": "hardcodet.notifyicon.wpf.netcore.1.0.14.nupkg.sha512"
+    },
+    "HMBSbige.SingleInstance/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-n5jxOJ2hRwguPFv5yjm7XHMgU7mYt2BRHMKfzAvbfJVsWNROgnIkRr268InfW6Qwfu6D6z2SjAhlj2AigKlXHg==",
+      "path": "hmbsbige.singleinstance/5.0.0",
+      "hashPath": "hmbsbige.singleinstance.5.0.0.nupkg.sha512"
+    },
+    "HMBSbige.UpdateChecker/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-4u/OGADWN3pprRD/+tbIekXlKS7psePAsQn4k9CDf+/Sp332ZVfJ2HqYpQgYCKiJg5SlD7Vugz5c4/0XMQWWPQ==",
+      "path": "hmbsbige.updatechecker/5.0.0",
+      "hashPath": "hmbsbige.updatechecker.5.0.0.nupkg.sha512"
+    },
+    "Microsoft.NETCore.Platforms/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VyPlqzH2wavqquTcYpkIIAQ6WdenuKoFN0BdYBbCWsclXacSOHNQn66Gt4z5NBqEYW0FAPm5rlvki9ZiCij5xQ==",
+      "path": "microsoft.netcore.platforms/5.0.0",
+      "hashPath": "microsoft.netcore.platforms.5.0.0.nupkg.sha512"
+    },
+    "Microsoft.Win32.Registry/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-dDoKi0PnDz31yAyETfRntsLArTlVAVzUzCIvvEDsDsucrl33Dl8pIJG06ePTJTI3tGpeyHS9Cq7Foc/s4EeKcg==",
+      "path": "microsoft.win32.registry/5.0.0",
+      "hashPath": "microsoft.win32.registry.5.0.0.nupkg.sha512"
+    },
+    "RunAtStartup/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-fGt5ngUoU+sY/zma9l00V2ARi8nxq+7m9GTh+13b/45kdjfdrODPmAlHkBaD5YyvIhMQfdGHT0AsQmSnKTmj8A==",
+      "path": "runatstartup/5.0.0",
+      "hashPath": "runatstartup.5.0.0.nupkg.sha512"
+    },
+    "Syncfusion.Data.WPF/18.4.0.30": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-l7otWaRiJag4ZjJ0ZIIHPjxoUoZ9YvDZPpDrxcqfxff5QeKMw6TXxgwi2URPFSLddxwRy/GeNsk0+i+v+oILsw==",
+      "path": "syncfusion.data.wpf/18.4.0.30",
+      "hashPath": "syncfusion.data.wpf.18.4.0.30.nupkg.sha512"
+    },
+    "Syncfusion.Licensing/18.4.0.30": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-HuWxdSyLgkyWeFeCrrFXNNIPZCb5t6KmxVNIMRXBKq6PRJ0XoXp+JQMCL+1l4s78jSdt+cajcrTJoxmEhP8DmA==",
+      "path": "syncfusion.licensing/18.4.0.30",
+      "hashPath": "syncfusion.licensing.18.4.0.30.nupkg.sha512"
+    },
+    "Syncfusion.SfBusyIndicator.WPF/18.4.0.30": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-NRlLR96TCF7akDn95QEpd8hBHgy/pBNL5Bj24PitW+okjRmrzl1UDJNDNfV/CVhQQy40AZezREyTEw69TDL/pA==",
+      "path": "syncfusion.sfbusyindicator.wpf/18.4.0.30",
+      "hashPath": "syncfusion.sfbusyindicator.wpf.18.4.0.30.nupkg.sha512"
+    },
+    "Syncfusion.SfGrid.WPF/18.4.0.30": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Gohhd9vI7c9/KIlWmjD1klRbjcQowcS8uy1Hw23kCgzck9wopYuIJGvA3cebXCZ7sUXtvdesy1XmxJmxspBYNA==",
+      "path": "syncfusion.sfgrid.wpf/18.4.0.30",
+      "hashPath": "syncfusion.sfgrid.wpf.18.4.0.30.nupkg.sha512"
+    },
+    "Syncfusion.SfGridCommon.WPF/18.4.0.30": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-4RO84A4f93Tr0cUnb+0jeNvWtRNIGVBOCAKoeDTXeN6bSLkL642VFZltTcBrlIWdni0dbuZyjOk/XoHknqu4Ig==",
+      "path": "syncfusion.sfgridcommon.wpf/18.4.0.30",
+      "hashPath": "syncfusion.sfgridcommon.wpf.18.4.0.30.nupkg.sha512"
+    },
+    "Syncfusion.SfShared.WPF/18.4.0.30": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6Fzlapk5S3yeAUChaYVEII8dRA4M9LGs0+m4Vb+WwbnYvb4Q965+ztpznMlRusHSLNumfg4v7JOgXWqbhqu9DQ==",
+      "path": "syncfusion.sfshared.wpf/18.4.0.30",
+      "hashPath": "syncfusion.sfshared.wpf.18.4.0.30.nupkg.sha512"
+    },
+    "Syncfusion.SfTreeView.WPF/18.4.0.30": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-uZ4XB1v/jRXzSciUwPfDUmqCk7SHkSIb3hYs8XXwxQjs+nsgTTHxucwYLNHXh9AEDiiJiOL9Eyoc1DoLNHvHAQ==",
+      "path": "syncfusion.sftreeview.wpf/18.4.0.30",
+      "hashPath": "syncfusion.sftreeview.wpf.18.4.0.30.nupkg.sha512"
+    },
+    "Syncfusion.Shared.WPF/18.4.0.30": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-C0p2qbFMWV9i/skryn0bK4C/2xpkH2NU3bFnlZ09Cn2Q/LPT/jBbYcs3wbMAkOzhdTkGPB/MOjRVrXTazIQsUw==",
+      "path": "syncfusion.shared.wpf/18.4.0.30",
+      "hashPath": "syncfusion.shared.wpf.18.4.0.30.nupkg.sha512"
+    },
+    "System.Reactive/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-erBZjkQHWL9jpasCE/0qKAryzVBJFxGHVBAvgRN1bzM0q2s1S4oYREEEL0Vb+1kA/6BKb5FjUZMp5VXmy+gzkQ==",
+      "path": "system.reactive/5.0.0",
+      "hashPath": "system.reactive.5.0.0.nupkg.sha512"
+    },
+    "System.Security.AccessControl/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-dagJ1mHZO3Ani8GH0PHpPEe/oYO+rVdbQjvjJkBRNQkX4t0r1iaeGn8+/ybkSLEan3/slM0t59SVdHzuHf2jmw==",
+      "path": "system.security.accesscontrol/5.0.0",
+      "hashPath": "system.security.accesscontrol.5.0.0.nupkg.sha512"
+    },
+    "System.Security.Principal.Windows/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-t0MGLukB5WAVU9bO3MGzvlGnyJPgUlcwerXn1kzBRjwLKixT96XV0Uza41W49gVd8zEMFu9vQEFlv0IOrytICA==",
+      "path": "system.security.principal.windows/5.0.0",
+      "hashPath": "system.security.principal.windows.5.0.0.nupkg.sha512"
+    },
+    "URIScheme/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-MY+ax5jd5UHLVwcanFLusRcTjvKonedr8TvqZdVclmBLvHiUHlJnoH5BxR74HU7BUNcXjkhDuMJVRJEZsFKcdw==",
+      "path": "urischeme/5.0.0",
+      "hashPath": "urischeme.5.0.0.nupkg.sha512"
+    },
+    "WindowsJobAPI/5.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-qb/dzlCBJdh585v4akjo2UIbjB58BC1/47r7B3iQkREirmE04MQ00qtp7Ry758nNv/XfrFEMs7NfNkkRXsy8TQ==",
+      "path": "windowsjobapi/5.0.1",
+      "hashPath": "windowsjobapi.5.0.1.nupkg.sha512"
+    },
+    "WindowsProxy/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-u65rkNgmE7Ei0ungWL1HnuzUAdh0TN7ZeNKFMNrOTlGOCSZagw5L2R6D/84zyMeM36Z4kFW7eEKw9NczR8AiDA==",
+      "path": "windowsproxy/5.0.0",
+      "hashPath": "windowsproxy.5.0.0.nupkg.sha512"
+    },
+    "WpfColorFontDialog/1.0.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-XkClT52TgzGO4kvYULaHCxfw95qoSJLQVsKT9NGx7ZnFoKIkwAsuDpS8b9e9HVi6rQC2cblznEE+ZqjVecLVYg==",
+      "path": "wpfcolorfontdialog/1.0.8",
+      "hashPath": "wpfcolorfontdialog.1.0.8.nupkg.sha512"
+    },
+    "ZXing.Net/0.16.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-0+6EcJ7Ve1BocwqvqpAmgMa7xF3wxqROcM3KvAE6WGNIqXLA5YEziLjRX+kKYVrcttlFRz1IaoRSzt/o6Ttviw==",
+      "path": "zxing.net/0.16.6",
+      "hashPath": "zxing.net.0.16.6.nupkg.sha512"
+    }
+  }
+}
